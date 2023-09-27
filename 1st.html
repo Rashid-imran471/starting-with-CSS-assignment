@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of css</title>
+    <!--This link tag is linked to the  external css which will be as the 3rd priority if both the inline and internal css be commented-->
+    <link rel="stylesheet" href="/1st.css">
+    <!--internal css: if we comment out the inline css then it will be executed that means it will be in the 2nd priority order-->
+    <style>
+        .container {
+            background-color: yellowgreen;
+            color: whitesmoke;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--inline css: this will be in the first priority order-->
+    <div class="container" style="background-color:blueviolet;color:black;text-align:justify;margin:5px;padding:5px">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptatem, praesentium eligendi repellendus
+        blanditiis eveniet inventore alias, ducimus architecto optio dolor cumque ex. Repellat illo officia ipsa aperiam
+        magni dolor fugit error, quasi expedita accusamus nostrum sunt! Sed doloribus labore exercitationem sit
+        repellendus voluptates quasi accusamus optio quos commodi vel earum ad voluptate, esse est sint perspiciatis
+        sequi corrupti eos pariatur. Corrupti quam ex animi eius facilis, qui eveniet molestias. Sit officia cumque
+        natus consectetur totam molestiae ratione eos enim, id pariatur, temporibus asperiores ipsa similique! Facere
+        quisquam, pariatur magnam numquam iusto minima. Quam sed deleniti nostrum voluptas magnam similique.
+    </div>
+    <!--here is some explaination of the work in which i had used the inline css which will reflect in the web page-->
+    <footer style="border: 2px;margin:auto;padding:3px;text-align:justify;background-color:aquamarine">
+        This site explains that how we can use the css in different ways.
+        <ol>
+            <li>inline css: 1st in the priority order.</li>
+            <li>internal: 2nd in the priority order.</li>
+            <li>external: 3rd in the priority order.</li>
+        </ol>
+    </footer>
+</body>
+
+</html>
